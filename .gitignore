@@ -1,0 +1,35 @@
+# Binaries and object files
+*.o
+*.ppu
+*.res
+*.lps
+*.bak
+*.old
+*.log
+lib/
+backup/
+bin/
+docs/
+data/
+
+# Project-specific binaries
+session-cli
+session-cli-debug
+debug_seed
+derive_test
+test_seed
+test_all
+test_b64
+
+# Configuration and Seeds (Sensitive)
+session.seed
+session.conf
+tests/test_session.conf
+
+# IDE specific
+.vscode/
+Session_CLI.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db

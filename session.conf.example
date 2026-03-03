@@ -1,0 +1,18 @@
+[Identity]
+# Your 32-byte (64 hex characters) seed
+Seed=
+# Your 33-byte (66 hex characters) Session ID (05-prefixed)
+SessionID=
+# Your display name
+DisplayName=User
+
+[Network]
+# Set to 1 to use Session testnet
+UseTestnet=0
+
+[Paths]
+# Path to a binary seed file (optional)
+SeedFile=
+
+[Contacts]
+Count=0
